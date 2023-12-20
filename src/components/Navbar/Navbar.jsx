@@ -70,14 +70,14 @@ const Navbar = () => {
                   </Menu.Button>
 
                   {/* DROPDOWN ITEMS */}
-                  <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white py-4 shadow-lg ring-1 ring-black/5 focus:outline-none dark:bg-neutral-900">
+                  <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white py-4 shadow-lg ring-1 ring-black/5 focus:outline-none bg-slate-900 dark:bg-slate-100 text-slate-100 dark:text-slate-900">
                     {item.dropdownItems.map((item) => (
                       <Menu.Item key={item.name}>
                         {({ active }) => (
                           <a
                             href={item.href}
                             className={`${
-                              active && 'bg-neutral-100 dark:bg-neutral-800'
+                              active && 'bg-slate-200 dark:bg-slate-500'
                             } block px-4 py-2`}
                           >
                             {item.name}
