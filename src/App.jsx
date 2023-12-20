@@ -1,11 +1,11 @@
-import { Hero } from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
+import { Hero, Logos, Navbar } from './components'
 
 function App() {
   return (
-    <div className="h-full">
+    <div className="h-full bg-slate-100 dark:bg-slate-900">
       <Navbar />
       <Hero />
+      <Logos />
     </div>
   );
 }
