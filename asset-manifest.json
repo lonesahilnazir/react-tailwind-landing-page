@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/rt-landing-page/static/css/main.e14d98d4.css",
-    "main.js": "/rt-landing-page/static/js/main.195ab021.js",
-    "index.html": "/rt-landing-page/index.html",
-    "main.e14d98d4.css.map": "/rt-landing-page/static/css/main.e14d98d4.css.map",
-    "main.195ab021.js.map": "/rt-landing-page/static/js/main.195ab021.js.map"
+    "main.css": "/react-tailwind-landing-page/static/css/main.e14d98d4.css",
+    "main.js": "/react-tailwind-landing-page/static/js/main.195ab021.js",
+    "index.html": "/react-tailwind-landing-page/index.html",
+    "main.e14d98d4.css.map": "/react-tailwind-landing-page/static/css/main.e14d98d4.css.map",
+    "main.195ab021.js.map": "/react-tailwind-landing-page/static/js/main.195ab021.js.map"
   },
   "entrypoints": [
     "static/css/main.e14d98d4.css",
