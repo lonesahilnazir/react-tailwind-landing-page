@@ -84,18 +84,18 @@ const Logos = () => {
     const duplicatedLogos = [...logos, ...logos];
   
     return (
-      <div className="mx-auto mt-24 max-w-7xl px-4 sm:mt-32 sm:px-6 lg:mt-36 lg:px-8">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg font-semibold leading-tight tracking-wide text-neutral-900 dark:text-neutral-50">
+      <div className="px-4 mx-auto mt-24 max-w-7xl sm:mt-32 sm:px-6 lg:mt-36 lg:px-8">
+        <div className="px-6 mx-auto max-w-7xl lg:px-8">
+          <h2 className="text-lg font-semibold leading-tight tracking-wide text-center text-neutral-900 dark:text-neutral-50">
             Trusted by the world’s most unknown companies
           </h2>
   
-          <div className={`mx-auto mt-10 overflow-hidden ${styles['animated-scroll']}`}>
+          <div className={`mx-auto mt-10 overflow-hidde ${styles['animated-scroll']}`}>
             <div className="flex space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-10 xl:space-x-12 logos-container">
               {duplicatedLogos.map((logo) => (
                 <img
                   key={logo.id}
-                  className="max-h-10 w-auto object-contain"
+                  className="object-contain w-auto max-h-10"
                   src={logo.src}
                   alt={logo.name}
                   width={logo.width}
